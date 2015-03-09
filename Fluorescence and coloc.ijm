@@ -52,8 +52,8 @@ run("Measure");
 run("Coloc 2", "channel_1=C2-resultPolar.tif channel_2=C3-resultPolar.tif roi_or_mask=[ROI Manager] spearman's_rank_correlation manders'_correlation psf=3 costes_randomisations=10");
 
 //Clean up windows
-//selectWindow("dupe");
-//close();
+selectWindow("dupe");
+close();
 selectWindow("C2-resultPolar.tif");
 close();
 selectWindow("C3-resultPolar.tif");
